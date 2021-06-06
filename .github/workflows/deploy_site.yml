@@ -20,6 +20,7 @@ jobs:
               <title>GitHub Pages deployed!</title>
             </head>
             <body>
+              <p>Hello!</p> 
               <p>GitHub Pages with <strong>${{ github.sha }}</strong> commit ID has been deployed through <a href="https://github.com/marketplace/actions/github-pages">GitHub Pages action</a> successfully.</p>
             </body>
           </html>
@@ -31,5 +32,3 @@ jobs:
         with:
           target_branch: gh-pages
           build_dir: public
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
