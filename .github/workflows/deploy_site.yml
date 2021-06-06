@@ -1,6 +1,8 @@
 name: deploy_site
 
-on: push
+on: ]
+  - push
+  - workflow_dispatch
 
 jobs:
   publish:
