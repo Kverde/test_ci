@@ -49,7 +49,7 @@ jobs:
       - name: Build VuePress site
         run: |
           cd builder          
-          yarn builder/docs:build
+          yarn docs:build
       -
         name: Deploy to GitHub Pages
         if: success()
