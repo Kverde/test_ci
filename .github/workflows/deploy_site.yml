@@ -25,7 +25,7 @@ jobs:
           node-version: '14'
           
       - 
-        name: Setup Node.js
+        name: Build pages
         run: |
           cp readme.md builder/docs/readme.md
           node ./builder/make_files.js
