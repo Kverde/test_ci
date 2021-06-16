@@ -28,6 +28,7 @@ jobs:
         name: Setup Node.js
         run: |
           cp readme.md builder/docs/readme.md
+          node ./builder/make_files.js
 
       # cache node_modules
       - name: Cache dependencies
