@@ -6,5 +6,5 @@ pages:
   - readme.md
 
 books:
-  - Т01\book.yml
-  - T02\book.yml
+  - Т01/book.yml
+  - T02/book.yml
