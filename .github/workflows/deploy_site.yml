@@ -44,7 +44,7 @@ jobs:
           cd builder
           yarn --frozen-lockfile
           
-        name: Build pages
+      - name: Build pages
         run: |
           node ./builder/make_files.js
           
