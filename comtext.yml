@@ -1,6 +1,6 @@
 vuepress:
   title: 'Собрание сочинений Н. Г. Чернышевского'
-  base: ''
+  base: '/test_ci/'
 
 pages:
   - readme.md
