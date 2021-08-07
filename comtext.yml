@@ -5,6 +5,4 @@ vuepress:
 pages:
   - readme.md
 
-books:
-  - Т01\book.yml
-  - T02\book.yml
+
