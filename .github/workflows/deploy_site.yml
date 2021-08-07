@@ -15,7 +15,7 @@ jobs:
         name: Checkout tools repo
         uses: actions/checkout@v2
         with:
-          repository: ZaryaXYZ/chernishevskiy_builder
+          repository: ZaryaXYZ/comtext_builder
           path: builder
  
       - 
@@ -27,7 +27,6 @@ jobs:
       - 
         name: Build pages
         run: |
-          cp readme.md builder/docs/readme.md
           node ./builder/make_files.js
 
       # cache node_modules

@@ -1,5 +1,5 @@
-img_dir: img
 cover: cover.jpg
+filename: volume01.md
 files:
   - 0.md
   - 1_308-317.md
