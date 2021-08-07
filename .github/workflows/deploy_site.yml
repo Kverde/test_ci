@@ -43,7 +43,11 @@ jobs:
         run: |
           cd builder
           yarn --frozen-lockfile
-
+          
+        name: Build pages
+        run: |
+          node ./builder/make_files.js
+          
       # run build script
       - name: Build VuePress site
         run: |
